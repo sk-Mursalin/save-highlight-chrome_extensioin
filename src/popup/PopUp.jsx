@@ -18,7 +18,7 @@ export default function Popup() {
 
   return (
     <div className="popup-container">
-      <h2>📌 Saved Highlights</h2>
+      <h2>Saved Highlights</h2>
       <div className="highlight-list">
         {highlights.length === 0 ? (
           <p className="empty-state">No highlights saved.</p>
@@ -26,7 +26,7 @@ export default function Popup() {
           highlights.map((highlight, index) => (
             <div key={index} className="highlight-item">
               <span className="highlight-text">{highlight}</span>
-              <button className="delete-btn" onClick={() => deleteHighlight(index)}>❌</button>
+              <button className="delete-btn" onClick={() => deleteHighlight(index)}>⨯</button>
             </div>
           ))
         )}
