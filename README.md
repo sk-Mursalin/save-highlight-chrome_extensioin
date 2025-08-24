@@ -1,12 +1,49 @@
-# React + Vite
+# 🖍️ Save Highlight - Chrome Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Save Highlight** is a simple yet powerful Chrome extension that lets you save and manage highlighted text from any webpage. Perfect for researchers, students, and knowledge hoarders who want to quickly capture key points while browsing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Highlight any text on a webpage
+- 💾 "Save Highlight?" popup appears near your selection
+- 📋 View all saved highlights from the extension popup
+- 🗑️ Delete individual highlights easily
+- 🔍 Scrollable list for managing large numbers of highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ How It Works
+
+1. **Highlight Text**  
+   Select any text on a webpage.
+
+2. **Save Prompt**  
+   A small popup will appear near the selection with the message “Save Highlight?”.
+
+3. **Save It**  
+   Click the popup to save the highlight.
+
+4. **View Highlights**  
+   Click the extension icon in your Chrome toolbar to view your list of saved highlights.
+
+5. **Manage Highlights**  
+   Delete any highlight you no longer need from the popup list.
+
+---
+
+## 📦 Installation (Development Mode)
+
+1. Clone or download this repository.
+2. npm i and npm run build
+3. Open Chrome and go to `chrome://extensions`.
+4. Enable **Developer Mode** (top right).
+5. Click **Load unpacked**.
+6. Select the dist folder.
+7. A brain like icon will come
+8. Start using **Save Highlight**!
+
+---
+
+
